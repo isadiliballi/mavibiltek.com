@@ -63,7 +63,7 @@ div#slayt {
   box-shadow: 0 0 12px rgba(0,0,0,0.8);
 }
 div#slayt figure { 
-  margin: 0; width: 50%; 
+  margin: 1px; width: 45%; 
   height: auto; transition: 0.5s; 
   display: inline-block; 
   position: relative; overflow: hidden; 
@@ -83,7 +83,7 @@ div#slayt figure figcaption {
   bottom: 0; width: 100%;
 	transition: 1s 1s opacity; 
 }
-.expanded { transform: scale(2); z-index: 5;  }
+.expanded { transform: scale(2.1); z-index: 5;  }
 div#slayt figure.expanded figcaption { opacity: 1; }
 div.full figure:not(.expanded) { pointer-events: none; }
 
