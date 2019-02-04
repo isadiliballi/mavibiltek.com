@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'isadiliballi';
+    src: url('font/isadiliballi.woff2') format('woff2'),
+         url('font/isadiliballi.woff') format('woff'),
+         url('font/isadiliballi.eot') format('eot');
+ 
+
+}
+
+.foto
+{
+    position: relative;
+
+}
+
+.resim
+{
+    position: relative;
+    width: 50%;
+}

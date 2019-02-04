@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'isadiliballi';
+    src: url('font/isadiliballi.woff2') format('woff2'),
+         url('font/isadiliballi.woff') format('woff'),
+         url('font/isadiliballi.eot') format('eot');
+ 
+
+}
+
+body
+{
+    background-color: #000000;
+    font-family: isadiliballi;
+    
+    
+}
+
+.secenekler
+{
+  position: relative;
+  top:18%;
+  left:0%;
+  
+}
+
+.secenekler .button 
+{
+
+  font-family: isadiliballi;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(22, 22, 22);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  width: 23%;
+  display: block;
+}
+
+.secenekler .button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.secenekler .button:hover {
+  background-color: #006eff;
+}
+
+.slayt
+{
+  position: relative;
+  top: -67%;
+  left: 10%;
+  
+}
+
+div#slayt { 
+  background-color: #000; 
+  font-size: 0; width: 60%; 
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.8);
+}
+div#slayt figure { 
+  margin: 0; width: 50%; 
+  height: auto; transition: 0.5s; 
+  display: inline-block; 
+  position: relative; overflow: hidden; 
+}
+div#slayt figure:hover { cursor: pointer; z-index: 4; }
+div#slayt figure img { width: 100%; height: auto; }
+div#slayt figure:nth-child(1) { transform-origin: top left; }
+div#slayt figure:nth-child(2) { transform-origin: top right; }
+div#slayt figure:nth-child(3) { transform-origin: bottom left; }
+div#slaytfigure:nth-child(4) { transform-origin: bottom right; }
+div#slayt figure figcaption { 
+  margin: 0; opacity: 0; 
+  background: rgba(0,0,0,0.3); 
+  color: #fff; padding: .3rem; 
+  font-size: 1.2rem; 
+  position: absolute; 
+  bottom: 0; width: 100%;
+	transition: 1s 1s opacity; 
+}
+.expanded { transform: scale(2); z-index: 5;  }
+div#slayt figure.expanded figcaption { opacity: 1; }
+div.full figure:not(.expanded) { pointer-events: none; }
+
+
+p
+{
+  
+  color: #fff;
+  font-size: 19px;
+  top:-60%;
+  left:30%;
+ 
+ 
+}
+
+.telif2
+{
+   
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    bottom: 0%;
+    
+}
+
+.isadiliballi2
+{
+   
+    text-align: center;
+    left: 37%;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    bottom: 0%;
+}
+
+
+.isadiliballi2:hover 
+{
+    text-align: center;
+font-size: 23px;
+color:blue;
+bottom: 0%;
+}
+
+
+.cizgi2
+{
+    position: relative;
+    width: 50%;
+    color: white;
+    left:0%;
+    bottom: 0%;
+}
+
+.link
+{
+  text-decoration: none;
+}
+
+#button4
+{
+  background-color: #006eff;
+}
