@@ -1,2 +1,0 @@
-# mavibiltek.com
-web
