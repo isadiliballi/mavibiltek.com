@@ -1,6 +1,6 @@
 # mavibiltek.com
 Bilgisayarcılar için web sitesi. 
-Sıfırdan ilk defa yaptığım web sitesi projesi, bazı kısımlarda başka kaynaklardan yardım alınmıştır fakat üzerlerinde değişiklik yapılmıştır.
+Sıfırdan ilk defa yaptığım web sitesi projesi.
 Proje daha geliştirme aşamasında olduğundan web sitesinde yayımlanmamıştır. 
 
 <img width="1440" alt="ekran resmi 2019-02-08 17 56 15" src="https://user-images.githubusercontent.com/45713390/52487403-a0a5f980-2bce-11e9-886d-ea62fd4c671a.png">
