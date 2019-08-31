@@ -14,3 +14,6 @@ Proje daha geliştirme aşamasında olduğundan web sitesinde yayımlanmamışt�
 <img width="1440" alt="ekran resmi 2019-02-08 17 57 16" src="https://user-images.githubusercontent.com/45713390/52487496-d4811f00-2bce-11e9-8392-466b4f858977.png">
 
 <img width="1440" alt="ekran resmi 2019-02-08 17 57 29" src="https://user-images.githubusercontent.com/45713390/52487506-d8ad3c80-2bce-11e9-8868-ada651c713e0.png">
+
+
+Responsive desteği yoktur. En kısa sürede responsive özelliği eklenecek.
